@@ -2,10 +2,8 @@ var inquirer = require("inquirer");
 var generateMarkdown = require("./utils/generateMarkdown");
 var axios = require("axios");
 var fs = require("fs");
-// Require all npm packages and files
 
 const questions = [
-    // questions to user using "inquirer"
     {
       type: "input",
       message: "Please enter your Github Username",
