@@ -1,18 +1,29 @@
-# Project Title : Generate a README.md file 
 
-## Project Description:
- This is a CLI app that generates a readme file for any of your github projects
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributors)
+  * [Test](#test)
+  * [Questions](#questions)
+  * [License](#license)
 
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributors)
-* [Test](#test)
-* [License](#license)
+  # Project Title: Good Readme Generator
 
-## Installation
-Step1: Run npm install and node.js
+  # Username: 
+  deezyxp
+  # Description:
+  An application that allows users to create a sample readme for their project using question prompts
+  # Installation: 
+  install node.js to use app
+  # Usage: 
+  a convenient method for users to create detailed readme files
+  # Contribute: 
+  undefined
+  # Tests: 
+  undefined
+  # License: 
+  MIT License
 
-## Usage
-1.Answer the questions given to you by the prompt
+Video
 
+https://www.youtube.com/watch?v=v1B1wRoCK8w&feature=youtu.be

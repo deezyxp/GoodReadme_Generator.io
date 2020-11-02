@@ -7,7 +7,20 @@ const questions = [
     {
       type: "input",
       message: "Please enter your Github Username",
-      name: "username"
+      name: "username",
+      validate: async function(input){
+
+        return await axios
+        .get("https://api.github.com/users/" + input)
+        .then((response) => {
+          // check if data has something
+          // if not we should return false
+
+          return true;
+        }).catch((err) => {
+          return false
+        })
+      }
     },
   
     {
@@ -67,6 +80,7 @@ const questions = [
   ];
   
   function init() {
+    
     inquirer.prompt(questions).then(answers => {
       console.log(answers);
       axios
